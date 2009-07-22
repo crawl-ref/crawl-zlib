@@ -649,7 +649,7 @@ L_init_mmx:
 	movd mm5,dword ptr [esp+4]
 	movq mm2,mm5
 	pxor mm1,mm1
-	mov  ebx, [esp+8]
+	mov  ebx,dword ptr [esp+8]
 	jmp  L_do_loop_mmx
 
 ALIGN 4
