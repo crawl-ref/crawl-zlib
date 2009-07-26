@@ -52,9 +52,6 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_DLL_ASM_Debug/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="4"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -70,12 +67,11 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile="$(SolutionDir)\..\bin\zlib1.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				ModuleDefinitionFile="..\..\win32\zlib.def"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\Win32_DLL_ASM_Debug/zlib1d.pdb"
-				ImportLibrary=".\Win32_DLL_ASM_Debug/zlib1d.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -141,9 +137,6 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_DLL_ASM_Debug/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -159,12 +152,11 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile="$(SolutionDir)\..\bin\zlib1.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				ModuleDefinitionFile="..\..\win32\zlib.def"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\Win32_DLL_ASM_Debug/zlib1d.pdb"
-				ImportLibrary=".\Win32_DLL_ASM_Debug/zlib1d.lib"
 				TargetMachine="17"
 			/>
 			<Tool
@@ -231,8 +223,6 @@
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Win32_DLL_Release/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -248,11 +238,10 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile="$(SolutionDir)\..\bin\zlib1.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				ModuleDefinitionFile="..\..\win32\zlib.def"
-				ProgramDatabaseFile=".\Win32_DLL_Release/zlib1.pdb"
-				ImportLibrary=".\Win32_DLL_Release/zlib1.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -319,8 +308,6 @@
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Win32_DLL_Release/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -336,11 +323,10 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile="$(SolutionDir)\..\bin\zlib1.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				ModuleDefinitionFile="..\..\win32\zlib.def"
-				ProgramDatabaseFile=".\Win32_DLL_Release/zlib1.pdb"
-				ImportLibrary=".\Win32_DLL_Release/zlib1.lib"
 				TargetMachine="17"
 			/>
 			<Tool
@@ -400,9 +386,6 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_LIB_ASM_Debug/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="4"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -468,9 +451,6 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_LIB_ASM_Debug/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -542,8 +522,6 @@
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Win32_DLL_ASM_Release/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -559,11 +537,10 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile="$(SolutionDir)\..\bin\zlib1.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				ModuleDefinitionFile="..\..\win32\zlib.def"
-				ProgramDatabaseFile=".\Win32_DLL_ASM_Release/zlib1.pdb"
-				ImportLibrary=".\Win32_DLL_ASM_Release/zlib1.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -630,8 +607,6 @@
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Win32_DLL_ASM_Release/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -647,11 +622,10 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile="$(SolutionDir)\..\bin\zlib1.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				ModuleDefinitionFile="..\..\win32\zlib.def"
-				ProgramDatabaseFile=".\Win32_DLL_ASM_Release/zlib1.pdb"
-				ImportLibrary=".\Win32_DLL_ASM_Release/zlib1.lib"
 				TargetMachine="17"
 			/>
 			<Tool
@@ -711,9 +685,6 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_LIB_Debug/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="4"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -779,9 +750,6 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_LIB_Debug/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -852,9 +820,6 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_DLL_Debug/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="4"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -870,12 +835,11 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile="$(SolutionDir)\..\bin\zlib1.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				ModuleDefinitionFile="..\..\win32\zlib.def"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\Win32_DLL_Debug/zlib1d.pdb"
-				ImportLibrary=".\Win32_DLL_Debug/zlib1d.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -941,9 +905,6 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_DLL_Debug/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -959,12 +920,11 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile="$(SolutionDir)\..\bin\zlib1.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				ModuleDefinitionFile="..\..\win32\zlib.def"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\Win32_DLL_Debug/zlib1d.pdb"
-				ImportLibrary=".\Win32_DLL_Debug/zlib1d.lib"
 				TargetMachine="17"
 			/>
 			<Tool
@@ -1025,8 +985,6 @@
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Win32_LIB_Release/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -1093,8 +1051,6 @@
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Win32_LIB_Release/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -1160,8 +1116,6 @@
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Win32_LIB_ASM_Release/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -1228,8 +1182,6 @@
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Win32_LIB_ASM_Release/zlib.pch"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
