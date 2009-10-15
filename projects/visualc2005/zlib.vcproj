@@ -47,10 +47,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="0"
 				PreprocessorDefinitions="WIN32;_DEBUG;ASMV;ASMINF"
 				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_DLL_ASM_Debug/zlib.pch"
 			/>
 			<Tool
@@ -217,8 +215,6 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
 				PreprocessorDefinitions="WIN32;NDEBUG"
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
@@ -381,10 +377,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="0"
 				PreprocessorDefinitions="WIN32;_DEBUG;ASMV;ASMINF"
 				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_LIB_ASM_Debug/zlib.pch"
 			/>
 			<Tool
@@ -516,8 +510,6 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
 				PreprocessorDefinitions="WIN32;NDEBUG;ASMV;ASMINF"
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
@@ -680,10 +672,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="0"
 				PreprocessorDefinitions="WIN32;_DEBUG"
 				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_LIB_Debug/zlib.pch"
 			/>
 			<Tool
@@ -815,10 +805,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="0"
 				PreprocessorDefinitions="WIN32;_DEBUG"
 				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
 				PrecompiledHeaderFile=".\Win32_DLL_Debug/zlib.pch"
 			/>
 			<Tool
@@ -979,8 +967,6 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
 				PreprocessorDefinitions="WIN32;NDEBUG"
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
@@ -1110,8 +1096,6 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
 				PreprocessorDefinitions="WIN32;NDEBUG;ASMV;ASMINF"
 				StringPooling="true"
 				EnableFunctionLevelLinking="true"
