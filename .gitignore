@@ -1,3 +1,5 @@
 *.vcproj.*.user
 *.suo
 *.ncb
+.cflags
+*.[oa]
